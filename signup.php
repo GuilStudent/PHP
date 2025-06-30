@@ -34,78 +34,13 @@ else if ($lusername && $lpassword == true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Page</title>
-    <style>
-        body {
-            font-size: 2;
-            display: grid;
-            justify-content: center;
-        }
-
-        .login-form {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            border: 5px solid rgb(0, 0, 0);
-            width: 600px;
-            border-radius: 20px;
-            margin: 20px;
-        }
-
-        input {
-            background-color: white;
-            text-align: center;
-            width: 50%;
-            border-radius: 20px;
-            padding: 10px;
-            margin: 10px;
-        }
-
-        .Signup-form {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            border: 5px solid rgb(0, 0, 0);
-            width: 600px;
-            border-radius: 20px;
-            margin: 20px;
-        }
-
-        .sign-button {
-            cursor: pointer;
-            padding: 8px;
-        }
-
-        button {
-            background-color: #000000;
-            color: white;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            border: none;
-            cursor: pointer;
-            padding: 8px;
-            border: 5px solid rgb(0, 0, 0);
-            border-radius: 20px;
-        }
-
-        .login-button {
-            cursor: pointer;
-            padding: 8px;
-        }
-        label, select {
-            display: block;
-            margin: 10px auto;
-            text-align: center;
-        }
-
-        select {
-            border: 1px solid rgb(0, 0, 0);
-            border-radius: 20px;
-            padding: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <form action="" method="POST">
         <div class="login-form">
-            <img src="https://static.vecteezy.com/system/resources/previews/004/477/572/non_2x/business-woman-elegant-avatar-character-free-vector.jpg"
+            <img src="img/user2.jpg"
                 width="100" height="100">
             <h1>Register</h1>
             <input name="username" text="username" placeholder="username">

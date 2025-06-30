@@ -66,49 +66,11 @@ if (isset($_POST['update']) && isset($_POST['ueusername']) && isset($_POST['uepa
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School</title>
-    <style>
-    h1 {
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    body {
-        border: 5px solid rgb(255, 255, 255);
-        border-radius: 50px;
-        box-shadow: 12px 5px 5px 1px rgb(0, 0, 0);
-        padding: 20px;
-        margin: 50px auto 0 auto;
-        max-width: 500px;
-        height: 500px;
-    }
-    .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff4d4d;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #c2c2c2;
-}
-
-.button-group {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-    </style>
+    <link rel="stylesheet" href="css/school.css">
 </head>
 <body>
 <form action="" method="post">
-<div class="h1">Welcome, <?php echo $_SESSION['username'] ?></div>
+<div class="h1">Welcome, <?php echo $_SESSION['username'] ?></div><img src="img/user.jpg" width="80" height="80"></img>
 <p></p>
 <div class="button-group">
 <a href="logout.php" class="button">Logout</a>
